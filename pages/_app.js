@@ -18,6 +18,10 @@ function MyApp({ Component, pageProps }) {
           content="encrypt decrypt encryption file-encryption javascript client-side serverless decryption xchcha20 argon2id encryption-decryption webcrypto crypto browser in-browser"
         />
         <link rel="icon" href="/assets/icons/favicon.ico" />
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="apple-mobile-web-app-title" content="hat.sh">
+        <link rel="apple-touch-icon" href="/public/assets/images/logo2.png">
       </Head>
 
       <Component {...pageProps} />
